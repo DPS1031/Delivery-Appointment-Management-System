@@ -31,7 +31,8 @@ services:
         condition: service_healthy
     command: >
       sh -c "python manage.py migrate &&
-             python manage.py runserver 0.0.0.0:8000"
+         python manage.py shell < fixtures/seed.py &&
+         python manage.py runserver 0.0.0.0:8000"
 
   frontend:
     build:
