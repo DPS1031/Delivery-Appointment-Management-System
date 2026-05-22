@@ -66,6 +66,7 @@ A production-ready fullstack web application for managing delivery appointments 
 ---
 
 ## 🏗️ Architecture
+```plaintext
 ┌─────────────────────────────────────────┐
 │         Browser / Mobile Client         │
 └────────────────┬────────────────────────┘
@@ -111,6 +112,7 @@ A production-ready fullstack web application for managing delivery appointments 
 ---
 
 ## 🗄️ Entity Relationship Diagram
+```plaintext
 ┌──────────────────────────────────────────┐
 │              auth_user                   │
 ├──────────────────────────────────────────┤
@@ -142,6 +144,7 @@ A production-ready fullstack web application for managing delivery appointments 
 ---
 
 ## 📂 Project Structure
+```plaintext
 appointment-system/
 ├── backend/
 │   ├── apps/
