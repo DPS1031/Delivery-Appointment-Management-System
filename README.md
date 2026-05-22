@@ -66,6 +66,7 @@ A production-ready fullstack web application for managing delivery appointments 
 ---
 
 ## 🏗️ Architecture
+
 ┌─────────────────────────────────────────┐
 │         Browser / Mobile Client         │
 └────────────────┬────────────────────────┘
@@ -111,6 +112,7 @@ A production-ready fullstack web application for managing delivery appointments 
 ---
 
 ## 🗄️ Entity Relationship Diagram
+
 ┌──────────────────────────────────────────┐
 │              auth_user                   │
 ├──────────────────────────────────────────┤
