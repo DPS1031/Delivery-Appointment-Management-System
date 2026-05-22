@@ -144,6 +144,7 @@ A production-ready fullstack web application for managing delivery appointments 
 ---
 
 ## 📂 Project Structure
+
 appointment-system/
 ├── backend/
 │   ├── apps/
